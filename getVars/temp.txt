@@ -1,0 +1,45 @@
+
+// 可删
+no found css info: D:\Work\ue_web\branches\1.66.0\src\views\account\earningDetailsIndex.jsp 
+		account {"ctx":"${staticPath}","projectName":"${projectName}","cssUrl":"planner","path_wdate":"${siteroot}${contextPath}"} 
+no found css info: D:\Work\ue_web\branches\1.66.0\src\views\account\recommendedWay.jsp 
+		account {"ctx":"${staticPath}","projectName":"${projectName}","cssUrl":"planner","path_wdate":"${siteroot}${contextPath}"} 
+no found css info: D:\Work\ue_web\branches\1.66.0\src\views\account\relationshipDetailsIndex.jsp 
+		account {"ctx":"${staticPath}","projectName":"${projectName}","cssUrl":"planner","path_wdate":"${siteroot}${contextPath}"} 
+
+not found load.js : D:\Work\ue_web\branches\1.66.0\src\views\cms\about\contactus.jsp
+not found load.js : D:\Work\ue_web\branches\1.66.0\src\views\cms\about\memorabilia.jsp
+not found load.js : D:\Work\ue_web\branches\1.66.0\src\views\cms\about\service.jsp
+not found load.js : D:\Work\ue_web\branches\1.66.0\src\views\cms\article\news.jsp
+no found css info: D:\Work\ue_web\branches\1.66.0\src\views\cms\common\error\403.jsp 
+		cms {"ctx":"${staticPath}","projectName":"module","cssUrl":"error"} 
+no found css info: D:\Work\ue_web\branches\1.66.0\src\views\cms\common\error\500.jsp 
+		cms {"ctx":"${staticPath}","projectName":"module","cssUrl":"error"} 
+no found css info: D:\Work\ue_web\branches\1.66.0\src\views\cms\common\error\404.jsp 
+		cms {"ctx":"${staticPath}","projectName":"module","cssUrl":"error"} 
+not found load.js : D:\Work\ue_web\branches\1.66.0\src\views\cms\contract\adapter.jsp
+not found load.js : D:\Work\ue_web\branches\1.66.0\src\views\cms\about\index.jsp
+
+// 可删
+no found css info: D:\Work\ue_web\branches\1.66.0\src\views\portal\article\article_detail.jsp 
+		portal {"ctx":"${staticPath}","projectName":"${projectName}","cssUrl":"article"} 
+no found css info: D:\Work\ue_web\branches\1.66.0\src\views\portal\article\index.jsp 
+		portal {"ctx":"${staticPath}","projectName":"${projectName}","cssUrl":"article"} 
+no found css info: D:\Work\ue_web\branches\1.66.0\src\views\portal\help\index.jsp 
+		portal {"ctx":"${staticPath}","projectName":"${projectName}","cssUrl":"help"} 
+no found css info: D:\Work\ue_web\branches\1.66.0\src\views\portal\help\list_question.jsp 
+		portal {"ctx":"${staticPath}","projectName":"${projectName}","cssUrl":"help"}
+
+not found load.js : D:\Work\ue_web\branches\1.66.0\src\views\portal\platform\index.jsp
+
+no found css info: D:\Work\ue_web\branches\1.66.0\src\views\portal\questionnaire\index.jsp 
+		portal {"ctx":"${staticPath}","projectName":"${projectName}","cssUrl":"questionnaire"} 
+no found css info: D:\Work\ue_web\branches\1.66.0\src\views\portal\subject\financialPlanner.jsp 
+		portal {"ctx":"${staticPath}","projectName":"${projectName}","cssUrl":"financialPlanner"} 
+no found css info: D:\Work\ue_web\branches\1.66.0\src\views\payment\recharge\quickpayTip.jsp 
+		payment {"ctx":"${staticPath}","projectName":"module","cssUrl":"prompt"} 
+no found css info: D:\Work\ue_web\branches\1.66.0\src\views\payment\recharge\success.jsp 
+		payment {"ctx":"${staticPath}","projectName":"module","cssUrl":"prompt"} 
+
+not found load.js : D:\Work\ue_web\branches\1.66.0\src\views\product\durationDetail.jsp
+not found load.js : D:\Work\ue_web\branches\1.66.0\src\views\product\flexDetail.jsp
