@@ -9,15 +9,42 @@ main();
 function main() {
     let infoList = [];
     handleDir(PATH, infoList).then(function() {
-        let result = `total:${infoList.length}`;
-        console.log(result);
         infoList.sort((a, b) => {
             return b.size - a.size;
         });
-        save2File(JSON.stringify(infoList)).then(function(){
-            console.log('finish');
+        console.log('save to file : start');
+        save2File(JSON.stringify(infoList)).then(function() {
+            console.log('save to file : finish');
         });
+        analyze(infoList);
     });
+}
+
+function analyze(list) {
+    let maxSize, minSize, total, types = {},
+        temp, gt = 0,
+        lt = 0;
+    const kb = 100, SIZE = kb * 1024;
+    total = list.length;
+    maxSize = list[0].size;
+    minSize = list[total - 1].size;
+    list.forEach(function(item) {
+        let suffix = item.name.match(/\.\w+$/g);
+        suffix = suffix ? suffix[0] : 'unknown';
+        if (types[suffix]) {
+            types[suffix]++;
+        } else {
+            types[suffix] = 1;
+        }
+        item.size > SIZE ? gt++ : lt++;
+    });
+    console.log(`total:${total}\tmaxSize:${maxSize}\tminSize:${minSize}`);
+    temp = '';
+    Object.keys(types).forEach(function(k) {
+        temp += k + ':' + types[k] + '\t';
+    });
+    console.log(temp);
+    console.log(`>${kb}kb : ${gt}\t<${kb}kb : ${lt}`);
 }
 
 function save2File(data) {
